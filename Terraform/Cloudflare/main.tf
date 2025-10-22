@@ -4,9 +4,9 @@ provider "cloudflare" {
 
 resource "cloudflare_dns_record" "example_dns_record" {
   zone_id = var.cloudflare_zone_id
-  name = "test.satona.co.uk"
-  ttl = 3600
-  type = "A"
-  content = "172.167.14.165"
-  proxied = false
+  name = var.dns_record_name
+  ttl = var.dns_record_ttl
+  type = var.dns_record_type
+  content = var.dns_record_content
+  proxied = var.dns_record_proxied
 }
