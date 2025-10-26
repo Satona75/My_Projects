@@ -2,7 +2,7 @@
 export ARM_SUBSCRIPTION_ID="88888d09-c09d-4578-ab0d-731f655d24ef"
 
 # Set the application/environment
-export TF_VAR_application_name="network"
+export TF_VAR_application_name="linuxvm"
 export TF_VAR_environment_name="dev"
 
 
