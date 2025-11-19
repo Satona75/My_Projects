@@ -13,24 +13,31 @@ on:
 jobs:
   assign-user:
     runs-on: ubuntu-latest
+
+    permissions:
+      id-token: write        # only needed if you switch to OIDC later
+      contents: read
+
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Set up Azure CLI
-        uses: azure/setup-azure-cli@v1
-
-      - name: Login to Azure
-        run: |
-          az login --service-principal \
-            --username ${{ secrets.AZURE_CLIENT_ID }} \
-            --password ${{ secrets.AZURE_CLIENT_SECRET }} \
-            --tenant ${{ secrets.AZURE_TENANT_ID }}
+      - name: Azure Login (service principal)
+        uses: azure/login@v2
+        with:
+          # Recommended: a single AZURE_CREDENTIALS secret containing JSON
+          # {"clientId":"...","clientSecret":"...","subscriptionId":"...","tenantId":"..."}
+          credentials: ${{ secrets.SATONA_AZURE_CREDENTIALS }}
 
       - name: Assign user to group
+        shell: bash
         run: |
+          set -euo pipefail
           user="${{ github.event.inputs.user }}"
           group="${{ github.event.inputs.group }}"
+
+          echo "Resolving objectId for user: $user"
           userObjectID=$(az ad user show --id "$user" --query id --output tsv)
+          
           echo "Adding user $user to group $group"
           az ad group member add --group "$group" --member-id "$userObjectID" --verbose
