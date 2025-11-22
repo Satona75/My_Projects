@@ -28,7 +28,7 @@ jobs:
         with:
           # Recommended: a single AZURE_CREDENTIALS secret containing JSON
           # {"clientId":"...","clientSecret":"...","subscriptionId":"...","tenantId":"..."}
-          credentials: ${{ secrets.SATONA_AZURE_CREDENTIALS }}
+          creds: ${{ secrets.SATONA_AZURE_CREDENTIALS }}
 
       - name: Assign user to group
         shell: bash
