@@ -39,21 +39,21 @@ resource "azurerm_windows_virtual_machine" "build1_vm" {
   resource_group_name = azurerm_resource_group.build1_rg.name
   location            = azurerm_resource_group.build1_rg.location
   size                = var.vm_size
-  admin_username      = "adminuser"
+  admin_username      = var.vm_username
   admin_password      = "P@$$w0rd1234!"
   network_interface_ids = [
-    azurerm_network_interface.example.id,
+    azurerm_network_interface.build1_nic.id,
   ]
 
   os_disk {
     caching              = "ReadWrite"
-    storage_account_type = "Standard_LRS"
+    storage_account_type = var.os_disk_type
   }
 
   source_image_reference {
     publisher = "MicrosoftWindowsServer"
     offer     = "WindowsServer"
-    sku       = "2016-Datacenter"
+    sku       = var.image_sku
     version   = "latest"
   }
 }

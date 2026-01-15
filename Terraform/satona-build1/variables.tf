@@ -21,3 +21,15 @@ variable "subnet_address" {
 variable "vm_size" {
   type = string
 }
+
+variable "vm_username" {
+  type = string
+}
+
+variable "os_disk_type" {
+  type = string
+}
+
+variable "image_sku" {
+  type = string
+}
