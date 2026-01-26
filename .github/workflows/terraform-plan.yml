@@ -1,0 +1,36 @@
+name: 'Terraform Plan'
+
+on:
+  workflow_dispatch:
+  push:
+    branches-ignore:
+      - main
+    paths:
+      - 'Terraform/satona-build1/**'  # Only trigger when files in this folder change
+
+defaults:
+  run:
+    working-directory: Terraform/satona-build1
+
+jobs:
+  terraform:
+    runs-on: ubuntu-latest
+    
+
+    env:
+      ARM_TENANT_ID: ${{ vars.AZURE_TENANT_ID }}
+      ARM_SUBSCRIPTION_ID: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+      ARM_CLIENT_ID: ${{ vars.AZURE_CLIENT_ID }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+
+      - name: Terraform Init
+        run: terraform init
+
+      - name: Terraform Plan
+        run: terraform plan
