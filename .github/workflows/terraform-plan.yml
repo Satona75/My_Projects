@@ -8,6 +8,10 @@ on:
     paths:
       - 'Terraform/satona-build1/**'  # Only trigger when files in this folder change
 
+permissions:
+  id-token: write
+  contents: read
+
 defaults:
   run:
     working-directory: Terraform/satona-build1
