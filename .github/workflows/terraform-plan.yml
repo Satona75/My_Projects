@@ -3,7 +3,7 @@ name: 'Terraform Plan'
 on:
   workflow_dispatch:
   push:
-    branches-ignore:
+    branches:
       - main
     paths:
       - 'Terraform/satona-build1/**'  # Only trigger when files in this folder change
