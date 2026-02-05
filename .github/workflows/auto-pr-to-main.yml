@@ -29,6 +29,7 @@ jobs:
             
             Branch: ${{ github.ref_name }}
             Triggered by: ${{ github.actor }}
+          source_branch: ${{ github.ref_name }}
           branch: auto-pr/${{ github.ref_name }}
           base: main
           labels: |
