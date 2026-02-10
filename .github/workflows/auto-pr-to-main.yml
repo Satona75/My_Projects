@@ -18,10 +18,6 @@ jobs:
         with:
           fetch-depth: 0  # Required for proper branch comparison
 
-      - name: Create PR branch from feature branch
-        run: |
-          git checkout -b auto-pr/${{ github.ref_name }} ${{ github.ref_name }}
-
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
