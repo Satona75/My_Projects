@@ -1,0 +1,177 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "uksouth"
+        },
+        "resourceGroupName": {
+            "value": "monitoring_rg"
+        },
+        "enablePeriodicAssessment": {
+            "value": "ImageDefault"
+        },
+        "enableHotpatching": {
+            "value": false
+        },
+        "hibernationEnabled": {
+            "value": false
+        },
+        "patchMode": {
+            "value": "AutomaticByOS"
+        },
+        "publicIpAddressName": {
+            "value": "vm-mon-ip"
+        },
+        "pipDeleteOption": {
+            "value": "Detach"
+        },
+        "publicIpAddressType": {
+            "value": "Static"
+        },
+        "publicIpAddressSku": {
+            "value": "Standard"
+        },
+        "networkInterfaceName": {
+            "value": "vm-mon887"
+        },
+        "networkSecurityGroupName": {
+            "value": "vm-mon-nsg"
+        },
+        "networkSecurityGroupRules": {
+            "value": [
+                {
+                    "name": "HTTP",
+                    "properties": {
+                        "priority": 300,
+                        "protocol": "Tcp",
+                        "access": "Allow",
+                        "direction": "Inbound",
+                        "sourceAddressPrefix": "*",
+                        "sourcePortRange": "*",
+                        "destinationAddressPrefix": "*",
+                        "destinationPortRange": "80"
+                    }
+                },
+                {
+                    "name": "RDP",
+                    "properties": {
+                        "priority": 320,
+                        "protocol": "Tcp",
+                        "access": "Allow",
+                        "direction": "Inbound",
+                        "sourceAddressPrefix": "*",
+                        "sourcePortRange": "*",
+                        "destinationAddressPrefix": "*",
+                        "destinationPortRange": "3389"
+                    }
+                }
+            ]
+        },
+        "virtualMachineName": {
+            "value": "vm-mon"
+        },
+        "virtualMachineComputerName": {
+            "value": "vm-mon"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "osDiskType": {
+            "value": "Standard_LRS"
+        },
+        "osDiskDeleteOption": {
+            "value": "Delete"
+        },
+        "nicDeleteOption": {
+            "value": "Detach"
+        },
+        "securityType": {
+            "value": "TrustedLaunch"
+        },
+        "secureBoot": {
+            "value": true
+        },
+        "vTPM": {
+            "value": true
+        },
+        "adminUsername": {
+            "value": "azureuser"
+        },
+        "adminPassword": {
+            "value": "P@55word123!"
+        },
+        "storageAccountName": {
+            "value": "sasatona072026"
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "storageAccountkind": {
+            "value": "StorageV2"
+        },
+        "vnetProperties": {
+            "value": {
+                "subnets": [
+                    {
+                        "name": "snet-uksouth-1",
+                        "properties": {
+                            "addressPrefixes": [
+                                "172.16.0.0/24"
+                            ]
+                        }
+                    }
+                ],
+                "addressSpace": {
+                    "addressPrefixes": [
+                        "172.16.0.0/16"
+                    ]
+                }
+            }
+        },
+        "sqlAdministratorLogin": {
+            "value": "sqladmin"
+        },
+        "sqlAdministratorPassword": {
+            "value": "P@55word123!"
+        },
+        "collation": {
+            "value": "SQL_Latin1_General_CP1_CI_AS"
+        },
+        "databaseName": {
+            "value": "db-mon"
+        },
+        "sqlTier": {
+            "value": "Basic"
+        },
+        "sqlSkuName": {
+            "value": "Basic"
+        },
+        "maxSizeBytes": {
+            "value": 2147483648
+        },
+        "sqlServerName": {
+            "value": "sql-satona-monitoring"
+        },
+        "zoneRedundant": {
+            "value": false
+        },
+        "readScaleOut": {
+            "value": "Disabled"
+        },
+        "numberOfReplicas": {
+            "value": 0
+        },
+        "identity": {
+            "value": {
+                "type": "None"
+            }
+        },
+        "sqlPublicNetworkAccess": {
+            "value": "Enabled"
+        },
+        "sqlRequestedBackupStorageRedundancy": {
+            "value": "Local"
+        }
+    }
+}
