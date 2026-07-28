@@ -99,7 +99,7 @@
             "value": "azureuser"
         },
         "adminPassword": {
-            "value": "P@55word123!"
+            "value": ""
         },
         "storageAccountName": {
             "value": "sasatona072026"

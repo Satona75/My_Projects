@@ -20,7 +20,7 @@ param requestedBackupStorageRedundancy string
 @description('Microsoft Entra ID of the server.')
 param identity object = {}
 
-resource server 'Microsoft.Sql/servers@2024-11-01-preview' = {
+resource server 'Microsoft.Sql/servers@2021-08-01-preview' = {
   location: location
   name: serverName
   properties: {
@@ -32,7 +32,7 @@ resource server 'Microsoft.Sql/servers@2024-11-01-preview' = {
   identity: identity
 }
 
-resource serverName_database 'Microsoft.Sql/servers/databases@2023-05-01-preview' = {
+resource serverName_database 'Microsoft.Sql/servers/databases@2021-02-01-preview' = {
   parent: server
   location: location
   name: databaseName
@@ -48,12 +48,4 @@ resource serverName_database 'Microsoft.Sql/servers/databases@2023-05-01-preview
     name: skuName
     tier: tier
   }
-  dependsOn: [
-    serverName_Default
-  ]
-}
-
-resource serverName_Default 'Microsoft.Sql/servers/connectionPolicies@2021-08-01-preview' = {
-  parent: server
-  name: 'Default'
 }

@@ -1,6 +1,5 @@
 ﻿using sqlapp.Models;
 using System.Data.SqlClient;
-using System.Reflection.PortableExecutable;
 
 namespace sqlapp.Services
 {
@@ -8,29 +7,47 @@ namespace sqlapp.Services
     // This service will interact with our Product data in the SQL database
     public class CourseService
     {
-        private static string data_source = "files/data.csv";        
+        private static string db_source = "appserver344242.database.windows.net";
+        private static string db_user = "sqladmin";
+        private static string db_password = "Sqlpassword123";
+        private static string db_database = "appdb";
 
-        
+        private SqlConnection GetConnection()
+        {
+            
+            var _builder = new SqlConnectionStringBuilder();
+            _builder.DataSource = db_source;
+            _builder.UserID = db_user;
+            _builder.Password = db_password;
+            _builder.InitialCatalog = db_database;
+            return new SqlConnection(_builder.ConnectionString);
+        }
         public List<Course> GetCourses()
         {
             List<Course> _course_lst = new List<Course>();
-
-            StreamReader _reader = new StreamReader(File.OpenRead(data_source));
+            string _statement = "SELECT CourseID,ExamImage,CourseName,rating from Course";
+            SqlConnection _connection = GetConnection();
             
-                while (!_reader.EndOfStream)
+            _connection.Open();
+            
+            SqlCommand _sqlcommand = new SqlCommand(_statement, _connection);
+            
+            using (SqlDataReader _reader = _sqlcommand.ExecuteReader())
+            {
+                while (_reader.Read())
                 {
-                    string _line= _reader.ReadLine();
-                    string[] _values = _line.Split(',');
                     Course _course = new Course()
                     {
-                        CourseID = int.Parse(_values[0]),
-                        ExamImage = _values[1],
-                        CourseName = _values[2],
-                        Rating = decimal.Parse(_values[3])
+                        CourseID = _reader.GetInt32(0),
+                        ExamImage = _reader.GetString(1),
+                        CourseName = _reader.GetString(2),
+                        Rating = _reader.GetDecimal(3)
                     };
 
                     _course_lst.Add(_course);
-                }                        
+                }
+            }
+            _connection.Close();
             return _course_lst;
         }
 

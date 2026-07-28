@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp\\sqlapp\\sqlapp.csproj": {}
+    "C:\\Work\\Azure-Recorded\\AZ-305\\1. Design Monitoring\\7. Lab - Connecting our application to the cloud services\\sqlapp\\sqlapp\\sqlapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp\\sqlapp\\sqlapp.csproj": {
+    "C:\\Work\\Azure-Recorded\\AZ-305\\1. Design Monitoring\\7. Lab - Connecting our application to the cloud services\\sqlapp\\sqlapp\\sqlapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp\\sqlapp\\sqlapp.csproj",
+        "projectUniqueName": "C:\\Work\\Azure-Recorded\\AZ-305\\1. Design Monitoring\\7. Lab - Connecting our application to the cloud services\\sqlapp\\sqlapp\\sqlapp.csproj",
         "projectName": "sqlapp",
-        "projectPath": "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp\\sqlapp\\sqlapp.csproj",
-        "packagesPath": "C:\\Users\\Nick Sackey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp\\sqlapp\\obj\\",
+        "projectPath": "C:\\Work\\Azure-Recorded\\AZ-305\\1. Design Monitoring\\7. Lab - Connecting our application to the cloud services\\sqlapp\\sqlapp\\sqlapp.csproj",
+        "packagesPath": "C:\\Users\\alash\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\Azure-Recorded\\AZ-305\\1. Design Monitoring\\7. Lab - Connecting our application to the cloud services\\sqlapp\\sqlapp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Nick Sackey\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\alash\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,11 +22,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
-            "framework": "net6.0",
             "targetAlias": "net6.0",
             "projectReferences": {}
           }
@@ -39,22 +35,15 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.300"
+        }
       },
       "frameworks": {
         "net6.0": {
-          "framework": "net6.0",
           "targetAlias": "net6.0",
           "dependencies": {
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.9.1, )"
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
@@ -76,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
