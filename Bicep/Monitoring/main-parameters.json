@@ -133,7 +133,7 @@
             "value": "sqladmin"
         },
         "sqlAdministratorPassword": {
-            "value": "P@55word123!"
+            "value": ""
         },
         "collation": {
             "value": "SQL_Latin1_General_CP1_CI_AS"
