@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp\\sqlapp\\sqlapp.csproj": {}
+    "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp_local\\sqlapp\\sqlapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp\\sqlapp\\sqlapp.csproj": {
+    "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp_local\\sqlapp\\sqlapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp\\sqlapp\\sqlapp.csproj",
+        "projectUniqueName": "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp_local\\sqlapp\\sqlapp.csproj",
         "projectName": "sqlapp",
-        "projectPath": "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp\\sqlapp\\sqlapp.csproj",
+        "projectPath": "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp_local\\sqlapp\\sqlapp.csproj",
         "packagesPath": "C:\\Users\\Nick Sackey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp\\sqlapp\\obj\\",
+        "outputPath": "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp_local\\sqlapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

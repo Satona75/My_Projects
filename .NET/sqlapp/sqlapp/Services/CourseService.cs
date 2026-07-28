@@ -7,10 +7,10 @@ namespace sqlapp.Services
     // This service will interact with our Product data in the SQL database
     public class CourseService
     {
-        private static string db_source = "appserver344242.database.windows.net";
+        private static string db_source = "sql-satona-monitoring.database.windows.net";
         private static string db_user = "sqladmin";
-        private static string db_password = "Sqlpassword123";
-        private static string db_database = "appdb";
+        private static string db_password = "P@55word123!";
+        private static string db_database = "db-mon";
 
         private SqlConnection GetConnection()
         {

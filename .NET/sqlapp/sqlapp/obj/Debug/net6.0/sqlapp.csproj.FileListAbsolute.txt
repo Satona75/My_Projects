@@ -140,3 +140,46 @@ C:\Work\Azure-Recorded\AZ-305\1. Design Monitoring\7. Lab - Connecting our appli
 C:\Work\Azure-Recorded\AZ-305\1. Design Monitoring\7. Lab - Connecting our application to the cloud services\sqlapp\sqlapp\obj\Debug\net6.0\sqlapp.pdb
 C:\Work\Azure-Recorded\AZ-305\1. Design Monitoring\7. Lab - Connecting our application to the cloud services\sqlapp\sqlapp\obj\Debug\net6.0\sqlapp.genruntimeconfig.cache
 C:\Work\Azure-Recorded\AZ-305\1. Design Monitoring\7. Lab - Connecting our application to the cloud services\sqlapp\sqlapp\obj\Debug\net6.0\ref\sqlapp.dll
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\bin\Debug\net6.0\appsettings.json
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\bin\Debug\net6.0\sqlapp.staticwebassets.runtime.json
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\bin\Debug\net6.0\sqlapp.staticwebassets.endpoints.json
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\bin\Debug\net6.0\sqlapp.exe
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\bin\Debug\net6.0\sqlapp.deps.json
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\bin\Debug\net6.0\sqlapp.runtimeconfig.json
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\bin\Debug\net6.0\sqlapp.dll
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\bin\Debug\net6.0\sqlapp.pdb
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\sqlapp.csproj.AssemblyReference.cache
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\rpswa.dswa.cache.json
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\sqlapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\sqlapp.AssemblyInfoInputs.cache
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\sqlapp.AssemblyInfo.cs
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\sqlapp.csproj.CoreCompileInputs.cache
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\sqlapp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\sqlapp.RazorAssemblyInfo.cache
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\sqlapp.RazorAssemblyInfo.cs
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\sqlapp.sourcelink.json
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\rjimswa.dswa.cache.json
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\scopedcss\bundle\sqlapp.styles.css
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\scopedcss\projectbundle\sqlapp.bundle.scp.css
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\staticwebassets.build.json.cache
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\swae.build.ex.cache
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\sqlapp.csproj.Up2Date
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\sqlapp.dll
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\refint\sqlapp.dll
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\sqlapp.pdb
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\sqlapp.genruntimeconfig.cache
+C:\Users\Nick Sackey\Documents\Scripts\My_Projects\.NET\sqlapp\sqlapp\obj\Debug\net6.0\ref\sqlapp.dll

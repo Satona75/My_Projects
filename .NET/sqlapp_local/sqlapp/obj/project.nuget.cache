@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fxe0tZWkJfY=",
+  "dgSpecHash": "OzgOhYRX2DM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp\\sqlapp\\sqlapp.csproj",
+  "projectFilePath": "C:\\Users\\Nick Sackey\\Documents\\Scripts\\My_Projects\\.NET\\sqlapp_local\\sqlapp\\sqlapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nick Sackey\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Nick Sackey\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
